@@ -1,0 +1,141 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5dc; /* Light beige background */
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Form styling */
+.form,
+.login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #b38b6d;
+  outline: none;
+}
+
+button {
+  background-color: #b38b6d;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8d6a4f;
+}
+
+/* HomePage styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fdf6e3;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4d3e36;
+}
+
+.home-buttons a {
+  background-color: #b38b6d;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.home-buttons a:hover {
+  background-color: #8d6a4f;
+}
+
+/* Post page */
+.postPage {
+  margin: 1rem 0 1rem 1.5rem;
+  color: #4d3e36;
+}
+
+textarea#post {
+  border: 1px solid #d3c4a4;
+  resize: none;
+}
+
+.postContainer {
+  background-color: #fffef5;
+  border: 1px solid #dcd2ba;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.postContainer p {
+  color: #333;
+}
+
+.likes small {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.btns p {
+  color: #6c5c4d;
+  font-weight: 500;
+}
+
+.btns p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Profile page */
+.profile-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4d3e36;
+}
