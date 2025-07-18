@@ -5,7 +5,7 @@ const uri = process.env.MONGO_URL;
 
 console.log('MongoDB URI:', uri);
 
-mongoose.connect("mongodb+srv://hsakhare2153:harsh2003@cluster0.zddnne8.mongodb.net/blog-app", {
+mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
