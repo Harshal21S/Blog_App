@@ -90,13 +90,6 @@ This full-stack application is designed to provide a seamless user experience wi
 
 3. Open your browser and navigate to `http://localhost:3000`
 
-### Screenshots
-
-![LandingPage](https://github.com/user-attachments/assets/e46cde44-66ed-4581-9ebb-0825f3fd509b)
-![Homepage](https://github.com/user-attachments/assets/51625cbf-6c74-4b43-8396-f680649ff3e3)
-![resgister](https://github.com/user-attachments/assets/6224b526-0710-4f2c-be72-035a7ab60c3d)
-![login](https://github.com/user-attachments/assets/03b9acf9-a015-41c3-987a-a97b19f0ab8b)
-
 
 ## API Documentation
 
